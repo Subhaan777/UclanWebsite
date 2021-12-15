@@ -576,4 +576,137 @@ var ul= document.getElementById("JumperList");
  </footer>
 </body>
 <html>
+<!DOCTYPE html>
+<html lang="en">
+</head>
+     <link rel="stylesheet" type="text/css" href="uclanwebsite.css" /> 
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <header> 
+        <div class="logo"><img src="uclanlogo.png" alt="UCLan logo"></div>
+        <nav> 
+            <ul class="myNav">
+                <li class="navList"><a href="uclanwebsite.html">Home</a></li> 
+                <li class="navList"><a href="UclanWebsiteProduct.html"> Product</a> </li>
+                <li class="navList"><a href="Cart.html"> Cart</a> </li>
+            </ul>
+        </nav> 
+    </header>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Tshirt</title>
+    
+    <ul id="hoodies">
+        <title>css button</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    
+        <button class="btn" onclick="location.href='Tshirts.html'">T-Shirts</button>
+        
+        </html>
+        <title>css button</title>
+        <a href="Hoodies.html" type="text/css" href="style.css">
+   
+            <button class="btn" onclick="location.href='Jumpers.html'">Jumpers</button>
+       
+        </html>
+        <title>css button</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    
+        <button class="btn" onclick="location.href='Hoodies.html'">Hoodies</button>
+
+        <ul id ="HoodiesList">
+        </ul>
+        <script>
+            var Hoodies = [['UCLan Hoodie (1)','Purple','cotton authentic character and practicality are combined in this comfy  warm and luxury hoodie for students that goes with everything to create casual looks',' £39.99','images/items/hoodies/hoodie (1).jpg'],
+['UCLan Hoodie (2)','Light Blue','cotton authentic character and practicality are combined in this comfy  warm and luxury hoodie for students that goes with everything to create casual looks',' £39.99','images/items/hoodies/hoodie (2).jpg'],
+['UCLan Hoodie (3)','Green','cotton authentic character and practicality are combined in this comfy  warm and luxury hoodie for students that goes with everything to create casual looks',' £39.99','images/items/hoodies/hoodie (3).jpg'],
+['UCLan Hoodie (4)','Dark Grey','cotton authentic character and practicality are combined in this comfy  warm and luxury hoodie for students that goes with everything to create casual looks',' £39.99','images/items/hoodies/hoodie (4).jpg'],
+['UCLan Hoodie (5)','Black','cotton authentic character and practicality are combined in this comfy  warm and luxury hoodie for students that goes with everything to create casual looks',' £39.99','images/items/hoodies/hoodie (5).jpg'],
+['UCLan Hoodie (6)','Salmon','cotton authentic character and practicality are combined in this comfy  warm and luxury hoodie for students that goes with everything to create casual looks',' £39.99','images/items/hoodies/hoodie (6).jpg'],
+['UCLan Hoodie (7)','Burgundy','cotton authentic character and practicality are combined in this comfy  warm and luxury hoodie for students that goes with everything to create casual looks',' £39.99','images/items/hoodies/hoodie (7).jpg'],
+['UCLan Hoodie (8)','Light Grey','cotton authentic character and practicality are combined in this comfy  warm and luxury hoodie for students that goes with everything to create casual looks',' £39.99','images/items/hoodies/hoodie (8).jpg'],
+['UCLan Hoodie (9)','Slate Blue','cotton authentic character and practicality are combined in this comfy  warm and luxury hoodie for students that goes with everything to create casual looks',' £39.99','images/items/hoodies/hoodie (9).jpg'],
+['UCLan Hoodie (10)','Orange','cotton authentic character and practicality are combined in this comfy  warm and luxury hoodie for students that goes with everything to create casual looks',' £39.99','images/items/hoodies/hoodie (10).jpg'],
+['UCLan Hoodie (11)','Teal','cotton authentic character and practicality are combined in this comfy  warm and luxury hoodie for students that goes with everything to create casual looks',' £39.99','images/items/hoodies/hoodie (11).jpg'],
+['UCLan Hoodie (12)','Navy','cotton authentic character and practicality are combined in this comfy  warm and luxury hoodie for students that goes with everything to create casual looks',' £39.99','images/items/hoodies/hoodie (12).jpg'],
+['UCLan Hoodie (13)','Orange','cotton authentic character and practicality are combined in this comfy  warm and luxury hoodie for students that goes with everything to create casual looks',' £39.99','images/items/hoodies/hoodie (13).jpg'],
+['UCLan Hoodie (14)','Creame','cotton authentic character and practicality are combined in this comfy  warm and luxury hoodie for students that goes with everything to create casual looks',' £39.99','images/items/hoodies/hoodie (14).jpg'],
+['UCLan Hoodie (15)','Lime','cotton authentic character and practicality are combined in this comfy  warm and luxury hoodie for students that goes with everything to create casual looks',' £39.99','images/items/hoodies/hoodie (15).jpg'],
+['UCLan Hoodie (16)','Off Blue','cotton authentic character and practicality are combined in this comfy  warm and luxury hoodie for students that goes with everything to create casual looks',' £39.99','images/items/hoodies/hoodie (16).jpg'],
+['UCLan Hoodie (17)','Red','cotton authentic character and practicality are combined in this comfy  warm and luxury hoodie for students that goes with everything to create casual looks',' £39.99','images/items/hoodies/hoodie (17).jpg'],
+['UCLan Hoodie (18)','Charcoal','cotton authentic character and practicality are combined in this comfy  warm and luxury hoodie for students that goes with everything to create casual looks',' £39.99','images/items/hoodies/hoodie (18).jpg'],
+['UCLan Hoodie (19)','Navy Blue','cotton authentic character and practicality are combined in this comfy  warm and luxury hoodie for students that goes with everything to create casual looks',' £39.99','images/items/hoodies/hoodie (19).jpg'],
+['UCLan Hoodie (20)','Lighter Grey','cotton authentic character and practicality are combined in this comfy  warm and luxury hoodie for students that goes with everything to create casual looks',' £39.99','images/items/hoodies/hoodie (20).jpg'],
+['UCLan Hoodie (21)','New Blue','cotton authentic character and practicality are combined in this comfy  warm and luxury hoodie for students that goes with everything to create casual looks',' £39.99','images/items/hoodies/hoodie (21).jpg'],
+['UCLan Hoodie (22)','Forest Green','cotton authentic character and practicality are combined in this comfy  warm and luxury hoodie for students that goes with everything to create casual looks',' £39.99','images/items/hoodies/hoodie (22).jpg'],
+['UCLan Hoodie (23)','Ocean Blue','cotton authentic character and practicality are combined in this comfy  warm and luxury hoodie for students that goes with everything to create casual looks',' £39.99','images/items/hoodies/hoodie (23).jpg'],
+['UCLan Hoodie (24)','Pink','cotton authentic character and practicality are combined in this comfy  warm and luxury hoodie for students that goes with everything to create casual looks',' £39.99','images/items/hoodies/hoodie (24).jpg'],
+['UCLan Hoodie (25)','Orange New','cotton authentic character and practicality are combined in this comfy  warm and luxury hoodie for students that goes with everything to create casual looks',' £39.99','images/items/hoodies/hoodie (25).jpg'],
+['UCLan Hoodie (26)','Black','cotton authentic character and practicality are combined in this comfy  warm and luxury hoodie for students that goes with everything to create casual looks',' £39.99','images/items/hoodies/hoodie (26).jpg'],
+['UCLan Hoodie (27)','Light Off Grey','cotton authentic character and practicality are combined in this comfy  warm and luxury hoodie for students that goes with everything to create casual looks',' £39.99','images/items/hoodies/hoodie (27).jpg'],
+['UCLan Hoodie (28)','Rusty Red','cotton authentic character and practicality are combined in this comfy  warm and luxury hoodie for students that goes with everything to create casual looks',' £39.99','images/items/hoodies/hoodie (28).jpg'],
+['UCLan Hoodie (29)','Slate Grey','cotton authentic character and practicality are combined in this comfy  warm and luxury hoodie for students that goes with everything to create casual looks',' £39.99','images/items/hoodies/hoodie (29).jpg'],
+['UCLan Hoodie (30)','Bright Green','cotton authentic character and practicality are combined in this comfy  warm and luxury hoodie for students that goes with everything to create casual looks',' £39.99','images/items/hoodies/hoodie (30).jpg'],
+['UCLan Hoodie (31)','Bright Pink','cotton authentic character and practicality are combined in this comfy  warm and luxury hoodie for students that goes with everything to create casual looks',' £39.99','images/items/hoodies/hoodie (31).jpg'],
+['UCLan Hoodie (32)','Burgundy New','cotton authentic character and practicality are combined in this comfy  warm and luxury hoodie for students that goes with everything to create casual looks',' £39.99','images/items/hoodies/hoodie (32).jpg'],
+['UCLan Hoodie (33)','Navy New','cotton authentic character and practicality are combined in this comfy  warm and luxury hoodie for students that goes with everything to create casual looks',' £39.99','images/items/hoodies/hoodie (33).jpg'],
+['UCLan Hoodie (34)','Bright Green','cotton authentic character and practicality are combined in this comfy  warm and luxury hoodie for students that goes with everything to create casual looks',' £39.99','images/items/hoodies/hoodie (34).jpg']];
+var ul= document.getElementById("HoodiesList");
+    for (var i=0; i<Hoodies.length;i++){
+        ul.innerHTML+="<li><div class='product-item'>"+'<img src="'+Hoodies[i][4]+'" alt="Hoodies"><h1 class="productheading">'+Hoodies[i][0]+"</h1></li></div>";
+      // console.log("<li><div class='product-item'>"+'<img src="'+Hoodies[i][4]+'" alt="Hoodies"><h1 class="productheading">'+Hoodies[i][0]+"</h1></li></div>");
+    }
+    
+    </script>
+             <title>footer</title> 
+<meta charset="utf-8">
+<meta name="viewport" contents= "width=device-width, intial-scale">
+<link rel="stylesheet" href="Style.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+   
+   
+    <footer class="/footer">
+        <div class= "container">
+            <div class="footer-col">
+               
+               
+               
+                <div class="footer-col"> 
+                    <h4>Location:</h4>
+                 <ul>
+                     <li><a href="#">Preston, Lancashire, UK, PR1 2HE</a></li>
+                 </ul>
+                </div>
+                <h4>Follow Us On Social Media:</h4>
+                     <div class="social-links">
+                         <a href="https://www.facebook.com/OfficialUCLan/"><i class="fab fa-facebook-f"></i></a>
+                         <a href="https://www.instagram.com/uclanuni/"><i class="fab fa-instagram"></i></a>
+                         <a href="https://twitter.com/uclan"><i class="fab fa-twitter"></i></a>
+                     
+                         
+                         <div class="footer-col"> 
+                            <h4>Contact Number:</h4>
+                             <ul>
+                                 <li><a href="+44 1772 201 201">+44 1772 201 201</a></li>
+                             </ul>
+                            </div>
+                            <div class="footer-col"> 
+                                <h4></h4>
+                                 <ul>
+                                     <li><a href="https://www.uclan.ac.uk"><div class="logo"><img src="uclanlogo.png" alt="UCLan logo"></div></a></li>
+                                 </ul>
+                                </div>
+                           
+                </div> 
+            </div>
+        </div>
+     </div>
+ </footer>
+</body>
+<html>
 
