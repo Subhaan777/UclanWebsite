@@ -438,3 +438,142 @@ var ul= document.getElementById("JumperList");
  </footer>
 </body>
 <html>
+<!DOCTYPE html>
+<html lang="en">
+</head>
+     <link rel="stylesheet" type="text/css" href="uclanwebsite.css" /> 
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <header> 
+        <div class="logo"><img src="uclanlogo.png" alt="UCLan logo"></div>
+        <nav> 
+            <ul class="myNav">
+                <li class="navList"><a href="uclanwebsite.html">Home</a></li> 
+                <li class="navList"><a href="UclanWebsiteProduct.html"> Product</a> </li>
+                <li class="navList"><a href="Cart.html"> Cart</a> </li>
+            </ul>
+        </nav> 
+    </header>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Sweatshirt</title>
+    <ul id="Sweatshirt">
+        <title>css button</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <button class="btn" onclick="location.href='Tshirts.html'">T-Shirts</button>
+
+        </html>
+        <title>css button</title>
+        <a href="Jumpers.html" type="text/css" href="style.css">
+
+        <button class="btn" onclick="location.href='jumpers.html'">Jumpers</button>
+        </html>
+        <title>css button</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    
+        <button class="btn" onclick="location.href='Hoodies.html'">Hoodies</button>
+        
+        <ul id ="JumperList">
+        </ul>
+        <script>
+            var jumpers =[['UCLan Logo Jumper','Purple','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (1).jpg'],
+['UCLan Logo Jumper','Rusty Red','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (2).jpg'],
+['UCLan Logo Jumper','Water Blue','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (3).jpg'],
+['UCLan Logo Jumper','White','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (4).jpg'],
+['UCLan Logo Jumper','Pink','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (5).jpg'],
+['UCLan Logo Jumper','Black','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (6).jpg'],
+['UCLan Logo Jumper','Old Blue','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (7).jpg'],
+['UCLan Logo Jumper','Dark Grey ','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (8).jpg'],
+['UCLan Logo Jumper','Red','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (9).jpg'],
+['UCLan Logo Jumper','Brown','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (10).jpg'],
+['UCLan Logo Jumper','Green','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (11).jpg'],
+['UCLan Logo Jumper','Dark Red','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (12).jpg'],
+['UCLan Logo Jumper','Yellow','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (13).jpg'],
+['UCLan Logo Jumper','Light Grey','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (14).jpg'],
+['UCLan Logo Jumper','Light Green','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (15).jpg'],
+['UCLan Logo Jumper','Old Red','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (16).jpg'],
+['UCLan Logo Jumper','Light Purple','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (17).jpg'],
+['UCLan Logo Jumper','Slate Blue','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (18).jpg'],
+['UCLan Logo Jumper','Real Red','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (19).jpg'],
+['UCLan Logo Jumper','Old Pink','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (20).jpg'],
+['UCLan Logo Jumper','Slate Grey','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (21).jpg'],
+['UCLan Logo Jumper','Bright Green','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (22).jpg'],
+['UCLan Logo Jumper','Teal','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (23).jpg'],
+['UCLan Logo Jumper','Sky Blue','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (24).jpg'],
+['UCLan Logo Jumper','Sunshine Pink','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (25).jpg'],
+['UCLan Logo Jumper','Bronze','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (26).jpg'],
+['UCLan Logo Jumper','Olive Green','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (27).jpg'],
+['UCLan Logo Jumper','Bright White Green','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (28).jpg'],
+['UCLan Logo Jumper','Navy Blue','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (29).jpg'],
+['UCLan Logo Jumper','Rusty Orange','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (30).jpg'],
+['UCLan Logo Jumper','Bright Orange','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (31).jpg'],
+['UCLan Logo Jumper','Sky Purple','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (32).jpg'],
+['UCLan Logo Jumper','Really Red','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (33).jpg'],
+['UCLan Logo Jumper','Plum Purple','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (34).jpg'],
+['UCLan Logo Jumper','Dark Purple','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (35).jpg'],
+['UCLan Logo Jumper','Vibrant Red','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (36).jpg'],
+['UCLan Logo Jumper','Ocean Blue','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (37).jpg'],
+['UCLan Logo Jumper','Creame','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (38).jpg'],
+['UCLan Logo Jumper','Lighter Blue','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (39).jpg'],
+['UCLan Logo Jumper','Light Grey','cotton authentic character and practicality are combined in this winter jumper for students that goes with everything to create casual looks',' £29.99','images/items/jumpers/jumper (40).jpg']];
+var ul= document.getElementById("JumperList");
+    for (var i=0; i<jumpers.length;i++){
+        ul.innerHTML+="<li><div class='product-item'>"+'<img src="'+jumpers[i][4]+'" alt="tshirt"><h1 class="productheading">'+jumpers[i][0]+"</h1></li></div>";
+       //console.log("<li><div class='product-item'>"+'<img src="'+jumpers[i][4]+'" alt="tshirt"><h1 class="productheading">'+jumpers[i][0]+"</h1></li></div>");
+    }
+    
+    </script>
+    <title>footer</title> 
+<meta charset="utf-8">
+<meta name="viewport" contents= "width=device-width, intial-scale">
+<link rel="stylesheet" href="Style.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+   
+   
+    <footer class="/footer">
+        <div class= "container">
+            <div class="footer-col">
+               
+               
+               
+                <div class="footer-col"> 
+                    <h4>Location:</h4>
+                 <ul>
+                     <li><a href="#">Preston, Lancashire, UK, PR1 2HE</a></li>
+                 </ul>
+                </div>
+                <h4>Follow Us On Social Media:</h4>
+                     <div class="social-links">
+                         <a href="https://www.facebook.com/OfficialUCLan/"><i class="fab fa-facebook-f"></i></a>
+                         <a href="https://www.instagram.com/uclanuni/"><i class="fab fa-instagram"></i></a>
+                         <a href="https://twitter.com/uclan"><i class="fab fa-twitter"></i></a>
+                     
+                         
+                         <div class="footer-col"> 
+                            <h4>Contact Number:</h4>
+                             <ul>
+                                 <li><a href="+44 1772 201 201">+44 1772 201 201</a></li>
+                             </ul>
+                            </div>
+                            <div class="footer-col"> 
+                                <h4></h4>
+                                 <ul>
+                                     <li><a href="https://www.uclan.ac.uk"><div class="logo"><img src="uclanlogo.png" alt="UCLan logo"></div></a></li>
+                                 </ul>
+                                </div>
+                           
+                </div> 
+            </div>
+        </div>
+     </div>
+ </footer>
+</body>
+<html>
+
