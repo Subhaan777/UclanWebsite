@@ -38,3 +38,50 @@
 <div class="video-container">
     <iframe src="https://www.youtube.com/embed/watch?v=gbPbnEsE7M8"></iframe>
 </div>
+<title>footer</title> 
+<meta charset="utf-8">
+<meta name="viewport" contents= "width=device-width, intial-scale">
+<link rel="stylesheet" href="Style.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+   
+   
+    <footer class="/footer">
+        <div class= "container">
+            <div class="footer-col">
+               
+               
+               
+                <div class="footer-col"> 
+                    <h4>Location:</h4>
+                 <ul>
+                     <li><a href="#">Preston, Lancashire, UK, PR1 2HE</a></li>
+                 </ul>
+                </div>
+                <h4>Follow Us On Social Media:</h4>
+                     <div class="social-links">
+                         <a href="https://www.facebook.com/OfficialUCLan/"><i class="fab fa-facebook-f"></i></a>
+                         <a href="https://www.instagram.com/uclanuni/"><i class="fab fa-instagram"></i></a>
+                         <a href="https://twitter.com/uclan"><i class="fab fa-twitter"></i></a>
+                     
+                         
+                         <div class="footer-col"> 
+                            <h4>Contact Number:</h4>
+                             <ul>
+                                 <li><a href="+44 1772 201 201">+44 1772 201 201</a></li>
+                             </ul>
+                            </div>
+                            <div class="footer-col"> 
+                                <h4></h4>
+                                 <ul>
+                                     <li><a href="https://www.uclan.ac.uk"><div class="logo"><img src="uclanlogo.png" alt="UCLan logo"></div></a></li>
+                                 </ul>
+                                </div>
+                           
+                </div> 
+            </div>
+        </div>
+     </div>
+ </footer>
+</body>
+<html
