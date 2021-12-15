@@ -18,3 +18,23 @@
             </ul>
         </nav> 
     </header>
+
+     <div>
+    <div class="row" >
+    <div class = "col-2">
+        <h1>Where Opprtunity Creates Success</h1>
+    </h1>Students at The University of Central Lancashire are automatically members of the student union. Here is life becomes better for students and inspires each and everyone to reach and acheive all their goals.<p>
+    </div> 
+    <div class="col-2">
+
+   
+<h1> UCLan Campus </h1>
+<div class="video-container">
+
+    <iframe src="https://www.youtube.com/embed/watch?v=BGpqnK_s_8Y"></iframe>
+ 
+</div>
+<h1> UCLan Christmas Card</h1>
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/watch?v=gbPbnEsE7M8"></iframe>
+</div>
