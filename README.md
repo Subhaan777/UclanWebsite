@@ -709,4 +709,6 @@ var ul= document.getElementById("HoodiesList");
  </footer>
 </body>
 <html>
-
+    
+    
+    CSS styling for the website 
